@@ -65,7 +65,3 @@ function jet_engine_current_time_skip_day( $time = false ) {
 	return in_array( $day, $skip_days );
 
 }
-
-add_filter( 'jet-engine/current-time-conditions/skip-weekdays', function() {
-	return array( 5 );
-} );
